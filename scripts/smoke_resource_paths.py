@@ -26,12 +26,12 @@ def main():
         try:
             os.chdir(tmpdir)
             before_import_cwd = os.getcwd()
-            import run_PeakDeskSprite
+            import PeakDeskSprite.__main__ as app_entry
 
             if os.getcwd() != before_import_cwd:
-                raise AssertionError("importing run_PeakDeskSprite changed cwd")
+                raise AssertionError("importing PeakDeskSprite.__main__ changed cwd")
 
-            settings_root = run_PeakDeskSprite.settings.BASEDIR
+            settings_root = app_entry.settings.BASEDIR
             if os.path.normcase(os.path.normpath(settings_root)) != os.path.normcase(os.path.normpath(expected_root)):
                 raise AssertionError(f"unexpected settings.BASEDIR: {settings_root}")
         finally:
