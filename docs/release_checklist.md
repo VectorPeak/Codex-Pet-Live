@@ -4,7 +4,7 @@
 
 第一阶段 release 只解决三件事：可复现构建、发布包内容可审计、发布元数据可复核。
 
-发布依赖单独放在 `requirements-release.txt`。它是 release 环境约束，不是 `pip freeze`，因此只写经过发布流程接受的版本范围，不假造某台机器上的精确安装结果。
+项目只保留一个 `requirements.txt`。它同时服务源码运行和 Windows release 构建，并且是经过发布流程接受的版本范围，不是 `pip freeze`，因此不假造某台机器上的精确安装结果。
 
 输出位置固定为 `release-work\dist`，最终压缩包按版本命名为 `release-work\PeakDeskSprite-$Version-windows-x64.zip`。`release-work/` 是构建产物目录，不进入 Git。
 
@@ -16,7 +16,7 @@
 py -3.12 -m venv .venv-release
 $PythonPath = (Resolve-Path .\.venv-release\Scripts\python.exe).Path
 & $PythonPath -m pip install --upgrade pip
-& $PythonPath -m pip install -r .\requirements-release.txt
+& $PythonPath -m pip install -r .\requirements.txt
 & $PythonPath -m pip check
 ```
 
@@ -24,7 +24,7 @@ $PythonPath = (Resolve-Path .\.venv-release\Scripts\python.exe).Path
 
 ```powershell
 $PythonPath = 'C:\Path\To\Python\python.exe'
-& $PythonPath -m pip install -r .\requirements-release.txt
+& $PythonPath -m pip install -r .\requirements.txt
 & $PythonPath -m pip check
 ```
 
