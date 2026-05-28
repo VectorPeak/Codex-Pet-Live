@@ -53,13 +53,13 @@ English | <a href="README.md">简体中文</a>
 - `docs/`: development, release, and source-structure documentation
 - `scripts/`: release build, package audit, and smoke test scripts
 
-Maintenance docs: [asset development](docs/art_dev.md), [HatchPet converter](docs/hatchpet_converter.md), [source architecture](docs/source_architecture.md), [source dependency map](docs/source_dependency_map.md), [Windows release checklist](docs/release_checklist.md), [contributing](CONTRIBUTING.md), and [security reporting](SECURITY.md)
+Maintenance docs: [asset development](docs/art_dev.md), [HatchPet converter](docs/hatchpet_converter.md), [source architecture](docs/source_architecture.md), [source dependency map](docs/source_dependency_map.md), and [Windows release checklist](docs/release_checklist.md)
 
 
 
 
 ## Developer Manual
-For feature development, start with the [source architecture](docs/source_architecture.md), [source dependency map](docs/source_dependency_map.md), and [contributing guide](CONTRIBUTING.md)
+For feature development, start with the [source architecture](docs/source_architecture.md), [source dependency map](docs/source_dependency_map.md), and [Windows release checklist](docs/release_checklist.md)
 
 
 ## LLM Privacy Note
@@ -69,7 +69,7 @@ LLM features are optional. When enabled, PeakDeskSprite sends user input, necess
 
 ## Third-Party And Asset Licensing
 
-Project source code follows [LICENSE](LICENSE). Default assets, demo assets, third-party role/item modules, external fonts/icons/audio, and user-imported assets may have separate licensing boundaries. Read [NOTICE.md](NOTICE.md) before redistribution or derivative asset work
+Project source code follows [LICENSE](LICENSE). Default assets, demo assets, third-party role/item modules, external fonts/icons/audio, and user-imported assets may have separate licensing boundaries. Check the source and license terms before redistribution or derivative asset work
 
 
 
