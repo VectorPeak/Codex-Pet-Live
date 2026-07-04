@@ -1,18 +1,27 @@
 <h1 align="center">
-  CodexPetLive
+  <img src="res/icons/icon.png" alt="CodexPetLive app icon" width="64" valign="middle"> CodexPetLive<br>
+  <sup><sub>让 Codex 生成的角色走出素材包，住进你的 Windows 桌面。</sub></sup>
 </h1>
 
 <p align="center">
-  A Windows desktop runtime that brings Codex-generated pets to life
+  <b>🐣 Pet 落地</b>：把 Codex 生成的 hatch-pet 角色包转换为可运行桌宠，支持待机、移动、动作切换与互动响应。<br>
+  <b>🖥️ 桌面运行时</b>：基于 PySide6 的桌宠舞台，连接气泡、状态、背包、角色管理与设置面板。<br>
+  <b>✨ AI 陪伴</b>：可选接入 OpenAI-compatible 大模型，让角色拥有聊天、气泡和上下文陪伴能力。
 </p>
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/github/license/VectorPeak/CodexPetLive.svg">
+    <img src="https://img.shields.io/github/license/VectorPeak/codex-pet-live.svg">
   </a>
+
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/github/downloads/VectorPeak/codex-pet-live/total.svg">
+  </a>
+
   <a style="text-decoration:none">
     <img src="https://img.shields.io/badge/python-3.9+-blue.svg">
   </a>
+
   <a style="text-decoration:none">
     <img src="https://img.shields.io/badge/CodexPetLive-v0.8.6-green.svg">
   </a>
@@ -20,6 +29,13 @@
 
 <p align="center">
   简体中文 | <a href="README_EN.md">English</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/VectorPeak/codex-pet-live/releases/latest">快速体验</a> |
+  <a href="#效果演示">查看效果演示</a> |
+  <a href="docs/hatchpet_converter.md">查看 HatchPet 转换文档</a> |
+  <a href="docs/source_architecture.md">了解运行时架构</a>
 </p>
 
 ## 项目简介
