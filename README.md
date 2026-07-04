@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="res/icons/icon.png" alt="CodexPetLive app icon" width="64" valign="middle"> CodexPetLive<br>
+  <img src="res/icons/icon.png" alt="Codex Pet Live app icon" width="64" valign="middle"> Codex Pet Live<br>
   <sup><sub>让 Codex 生成的角色走出素材包，住进你的 Windows 桌面。</sub></sup>
 </h1>
 
