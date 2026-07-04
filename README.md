@@ -11,11 +11,11 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/github/license/VectorPeak/codex-pet-live.svg">
+    <img src="https://img.shields.io/github/license/VectorPeak/Codex-Pet-Live.svg">
   </a>
 
   <a style="text-decoration:none">
-    <img src="https://img.shields.io/github/downloads/VectorPeak/codex-pet-live/total.svg">
+    <img src="https://img.shields.io/github/downloads/VectorPeak/Codex-Pet-Live/total.svg">
   </a>
 
   <a style="text-decoration:none">
@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/VectorPeak/codex-pet-live/releases/latest">快速体验</a> |
+  <a href="https://github.com/VectorPeak/Codex-Pet-Live/releases/latest">快速体验</a> |
   <a href="#效果演示">查看效果演示</a> |
   <a href="docs/hatchpet_converter.md">查看 HatchPet 转换文档</a> |
   <a href="docs/source_architecture.md">了解运行时架构</a>
@@ -120,7 +120,7 @@ python tools\hatchpet_to_peakdesk.py convert `
 
 ### Windows 用户
 
-当前最新版本是 [CodexPetLive v0.8.6](https://github.com/VectorPeak/CodexPetLive/releases/tag/v0.8.6)，Windows 发布包为 `CodexPetLive-v0.8.6-windows-x64.zip`
+当前最新版本是 [CodexPetLive v0.8.6](https://github.com/VectorPeak/Codex-Pet-Live/releases/tag/v0.8.6)，Windows 发布包为 `CodexPetLive-v0.8.6-windows-x64.zip`
 
 下载 zip 后解压，双击 `CodexPetLive.exe` 启动。`v0.8.5` 是更名前发布的历史版本，所以旧包名和旧 exe 名仍会出现在历史 Release 资产里
 

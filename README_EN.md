@@ -8,7 +8,7 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/github/license/VectorPeak/CodexPetLive.svg">
+    <img src="https://img.shields.io/github/license/VectorPeak/Codex-Pet-Live.svg">
   </a>
   <a style="text-decoration:none">
     <img src="https://img.shields.io/badge/python-3.9+-blue.svg">
@@ -104,7 +104,7 @@ After conversion, restart CodexPetLive and select the new role in Role Manager. 
 
 ### Windows Users
 
-The latest version is [CodexPetLive v0.8.6](https://github.com/VectorPeak/CodexPetLive/releases/tag/v0.8.6), and the Windows package is `CodexPetLive-v0.8.6-windows-x64.zip`
+The latest version is [CodexPetLive v0.8.6](https://github.com/VectorPeak/Codex-Pet-Live/releases/tag/v0.8.6), and the Windows package is `CodexPetLive-v0.8.6-windows-x64.zip`
 
 Download the zip, unzip it, and double-click `CodexPetLive.exe`. `v0.8.5` is a historical version published before the rename, so the old package name and old exe name still appear in historical Release assets
 
