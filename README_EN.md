@@ -1,18 +1,27 @@
 <h1 align="center">
-  CodexPetLive
+  <img src="res/icons/icon.png" alt="Codex Pet Live app icon" width="64" valign="middle"> Codex Pet Live<br>
+  <sup><sub>Bring Codex-generated characters out of asset packs and onto your Windows desktop.</sub></sup>
 </h1>
 
 <p align="center">
-  A Windows desktop runtime that brings Codex-generated pets to life
+  <b>🐣 Pet Runtime</b>: Convert Codex-generated hatch-pet packages into runnable desktop pets with idle, movement, action switching, and interaction responses.<br>
+  <b>🖥️ Desktop Stage</b>: A PySide6-powered runtime that connects bubbles, status, inventory, role management, and settings panels.<br>
+  <b>✨ AI Companion</b>: Optionally connect OpenAI-compatible models so characters can chat, show bubbles, and provide contextual companionship.
 </p>
 
 <p align="center">
   <a>
     <img src="https://img.shields.io/github/license/VectorPeak/Codex-Pet-Live.svg">
   </a>
+
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/github/downloads/VectorPeak/Codex-Pet-Live/total.svg">
+  </a>
+
   <a style="text-decoration:none">
     <img src="https://img.shields.io/badge/python-3.9+-blue.svg">
   </a>
+
   <a style="text-decoration:none">
     <img src="https://img.shields.io/badge/CodexPetLive-v0.8.6-green.svg">
   </a>
@@ -22,6 +31,12 @@
   English | <a href="README.md">简体中文</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/VectorPeak/Codex-Pet-Live/releases/latest">Quick Start</a> |
+  <a href="#preview">View Preview</a> |
+  <a href="docs/hatchpet_converter.md">HatchPet Converter Guide</a> |
+  <a href="docs/source_architecture.md">Runtime Architecture</a>
+</p>
 ## Project Introduction
 
 Codex-generated Pets should not stay as asset packages
