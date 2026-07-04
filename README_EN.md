@@ -37,6 +37,7 @@
   <a href="docs/hatchpet_converter.md">HatchPet Converter Guide</a> |
   <a href="docs/source_architecture.md">Runtime Architecture</a>
 </p>
+
 ## Project Introduction
 
 Codex-generated Pets should not stay as asset packages
